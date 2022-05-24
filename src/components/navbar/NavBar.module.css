@@ -1,0 +1,39 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+
+
+}
+.item{
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+.nav li:hover{
+    transform: scale(1.1);
+}
+.nav li{
+    transition: transform 0.3s;
+}
+.nav li a{
+    color: white;
+}
+.nav li a:hover{
+    
+    color: #ffBB33;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1rem;
+}
+.nav img{
+    width: 70%;
+}

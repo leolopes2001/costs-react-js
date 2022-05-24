@@ -1,0 +1,29 @@
+.divHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    width: 100%;
+}
+
+.divHome h1{
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.divHome h1 span{
+    color: #ffbb33;
+    padding: 0 0.2em;
+    background-color: #222;
+
+}
+
+.divHome p{
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+.divHome img{
+    width: 250px;
+    margin: 2em 0;
+}
